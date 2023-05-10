@@ -1,0 +1,8 @@
+Teams-c("Athars", "Samudras","Moghals", "Rajyas", "Dheera")
+cricket-c(45,67,32,90,78)
+Kabadi-c(67,45,98,65,87) 
+koko-c(34,67,43,77,78)
+Football-c(88,77,56,74,39)
+fest-data.frame(Teams, Cricket, Kabadi, koko, Football)
+view(fest)
+write.csv(fest, "fest.csv")
